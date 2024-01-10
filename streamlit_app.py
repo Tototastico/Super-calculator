@@ -11,6 +11,3 @@ add_auth(required=True)
 st.write(f"Subscription Status: {st.session_state.user_subscribed}")
 st.write("🎉 Yay! You're all set and subscribed! 🎉")
 st.write(f'By the way, your email is: {st.session_state.email}')
-
-#  git config --global user.email "you@example.com"
-#  git config --global user.name "Your Name"
