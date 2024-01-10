@@ -4,7 +4,7 @@ from st_paywall import add_auth
 st.set_page_config(layout="wide")
 st.title("My super-calculator 🚀")
 
-add_auth(required=True)
+add_auth(required=False)
 
 # ONLY AFTER THE AUTHENTICATION + SUBSCRIPTION, THE USER WILL SEE THIS ⤵
 # The email and subscription status is stored in session state.
